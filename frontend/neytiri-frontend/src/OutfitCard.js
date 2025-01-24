@@ -36,7 +36,8 @@ const OutfitCard = ({ outfit, id }) => {
         {/* <p className="OtherName">MasterCategory: {outfit.master_category}</p> */}
         {/* <p className="OtherName">SubCategory: {outfit.sub_category}</p> */}
         <p className="OtherName">ArticleType: {outfit.article_type}</p>
-        <p className="link">Link: {outfit.link}</p>
+        {/* <p className="Link">Link: {outfit.link}</p> */}
+        <a href={outfit.link} className="Link" target="_blank" rel="noopener noreferrer"> Image Link</a>
         {/* <p className="OtherName" style={{ color: "red " }}>
           HardCodedType: {articleType}
         </p> */}
